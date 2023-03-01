@@ -11,6 +11,7 @@
  * You may choose whichever solution makes the most sense to you.
  */
 
+
 SELECT DISTINCT f.title
 FROM film f
 JOIN inventory i ON i.film_id = f.film_id
